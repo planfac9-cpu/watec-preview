@@ -96,3 +96,8 @@
 @media(max-width:680px){.w-product-figure figcaption,.w-product-figure figcaption b{color:#ceded6}.w-product-figure figcaption a{margin-left:14px;font-size:10px;padding-block:9px}.w-product-figure figcaption a:focus-visible{outline-color:#e8fac7}.w-product-figure figcaption{padding-top:0}}
 .w-product-desc{word-break:keep-all}
 @media(max-width:680px){.w-product-desc br{display:none}}
+
+/* W31 shares the approved studio image with the product explanation. */
+.w-equipment-stage:has(img[src*="hero-w31"]){background:#10272a;border-color:#c7d4cb}
+.w-equipment-stage img[src*="hero-w31"],.flow-panel img[src*="hero-w31"]{height:auto;max-height:none;aspect-ratio:12/5;object-fit:contain;background:#10272a}
+.w-equipment-stage:has(img[src*="hero-w31"]) .w-stage-label{color:#d3e4da}
